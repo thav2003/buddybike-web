@@ -42,7 +42,7 @@ export function AreaGraph() {
     <Card>
       <CardHeader>
         <CardTitle>Revenue by Service Type</CardTitle>
-        <CardDescription>Showing the last 6 months</CardDescription>
+        <CardDescription>Showing the last 3 months</CardDescription>
       </CardHeader>
       <CardContent>
         <ChartContainer
@@ -103,7 +103,7 @@ export function AreaGraph() {
               Trending up by 5.2% this month <TrendingUp className="h-4 w-4" />
             </div>
             <div className="flex items-center gap-2 leading-none text-muted-foreground">
-              January - June 2024
+              September - November 2024
             </div>
           </div>
         </div>
