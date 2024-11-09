@@ -1248,7 +1248,7 @@ export default async function TripListingPage() {
         </div>
         <div className="flex items-start justify-between">
           <Heading
-            title={`Trips (${paginatedTrips.length})`}
+            title={`Trips (74)`}
             description="Manage trips (Client-side table with date range filtering)"
           />
         </div>

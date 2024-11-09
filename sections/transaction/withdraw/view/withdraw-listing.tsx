@@ -1679,7 +1679,7 @@ export default async function WithdrawListingPage() {
 
         <div className="flex items-start justify-between">
           <Heading
-            title={`Transaction Withdrawals (${paginatedWithdrawals.length})`}
+            title={`Transaction Withdrawals (${mockWithdrawals.length})`}
             description="Manage customer withdrawal requests"
           />
         </div>
