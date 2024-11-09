@@ -20,12 +20,24 @@ import {
 export const description = 'An interactive bar chart';
 
 const chartData = [
-  { date: '2024-11-06', user: 145, driver: 33 },
-  { date: '2024-11-06', user: 158, driver: 37 },
-  { date: '2024-11-07', user: 160, driver: 40 },
-  { date: '2024-11-08', user: 170, driver: 45 },
-  { date: '2024-11-09', user: 189, driver: 55 }
+  { date: '2024-10-24', user: 12, driver: 2 },
+  { date: '2024-10-25', user: 6, driver: 3 },
+  { date: '2024-10-26', user: 14, driver: 5 },
+  { date: '2024-10-27', user: 15, driver: 2 },
+  { date: '2024-10-28', user: 12, driver: 5 },
+  { date: '2024-10-29', user: 13, driver: 2 },
+  { date: '2024-10-30', user: 10, driver: 4 },
+  { date: '2024-10-31', user: 8, driver: 3 },
+  { date: '2024-11-01', user: 10, driver: 4 },
+  { date: '2024-11-02', user: 11, driver: 2 },
+  { date: '2024-11-03', user: 14, driver: 4 },
+  { date: '2024-11-04', user: 12, driver: 3 },
+  { date: '2024-11-05', user: 13, driver: 5 },
+  { date: '2024-11-06', user: 10, driver: 2 },
+  { date: '2024-11-07', user: 14, driver: 4 },
+  { date: '2024-11-08', user: 15, driver: 5 }
 ];
+
 const chartConfig = {
   views: {
     label: 'Page Views'
