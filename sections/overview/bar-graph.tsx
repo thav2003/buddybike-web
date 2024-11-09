@@ -19,7 +19,13 @@ import {
 
 export const description = 'An interactive bar chart';
 
-const chartData = [{ date: '2024-11-09', user: 189, driver: 55 }];
+const chartData = [
+  { date: '2024-11-06', user: 145, driver: 33 },
+  { date: '2024-11-06', user: 158, driver: 37 },
+  { date: '2024-11-07', user: 160, driver: 40 },
+  { date: '2024-11-08', user: 170, driver: 45 },
+  { date: '2024-11-09', user: 189, driver: 55 }
+];
 const chartConfig = {
   views: {
     label: 'Page Views'
