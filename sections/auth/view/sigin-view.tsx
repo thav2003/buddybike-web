@@ -25,16 +25,15 @@ export default function SignInViewPage() {
         <div className="absolute inset-0 bg-zinc-900" />
 
         <div className="relative z-20 flex items-center text-lg font-medium">
+          Web Admin
+        </div>
+        <div className="relative z-20 flex flex-1 items-center justify-center">
           <img
             src="logo.png"
             alt="Buddy Bike Logo"
-            className="w-18 mr-8 h-12"
+            className="h-45 mr-8 w-full"
           />
-          Web Admin
         </div>
-        {/* <div className="relative z-20 flex flex-1 items-center justify-center">
-          <img src="download.jpg" alt="Buddy Bike Logo" className="h-6 w-6" />
-        </div> */}
         <div className="relative z-20 mt-auto">
           <blockquote className="space-y-2">
             <p className="text-lg">
