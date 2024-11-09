@@ -18,14 +18,10 @@ import {
   ChartTooltipContent
 } from '@/components/ui/chart';
 const chartData = [
-  { month: 'January', member: 100, gold: 150, diamond: 200 },
-  { month: 'February', member: 120, gold: 180, diamond: 250 },
-  { month: 'March', member: 110, gold: 160, diamond: 220 },
-  { month: 'April', member: 130, gold: 190, diamond: 270 },
-  { month: 'May', member: 140, gold: 200, diamond: 300 },
-  { month: 'June', member: 150, gold: 220, diamond: 330 }
+  { month: 'September', member: 0, gold: 0, diamond: 0 },
+  { month: 'October', member: 90, gold: 10, diamond: 3 },
+  { month: 'November', member: 105, gold: 3, diamond: 2 }
 ];
-
 const chartConfig = {
   member: {
     label: 'Member User',

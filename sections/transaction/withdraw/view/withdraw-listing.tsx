@@ -1664,12 +1664,19 @@ export default async function WithdrawListingPage() {
     <PageContainer>
       <div className="space-y-4">
         <Breadcrumbs items={breadcrumbItems} />
+
         <div className="total-amount">
           Total Withdrawal Amount:{' '}
-          {mockWithdrawals
-            .filter((item) => item.status === 'completed') // Lọc các item có status là 'completed'
-            .reduce((total, item) => total + item.amount, 0)}
+          {new Intl.NumberFormat('vi-VN', {
+            style: 'currency',
+            currency: 'VND'
+          }).format(
+            mockWithdrawals
+              .filter((item) => item.status === 'completed') // Lọc các mục có status là 'completed'
+              .reduce((total, item) => total + item.amount, 0) // Tính tổng số tiền
+          )}
         </div>
+
         <div className="flex items-start justify-between">
           <Heading
             title={`Transaction Withdrawals (${paginatedWithdrawals.length})`}
