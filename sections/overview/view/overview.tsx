@@ -195,7 +195,7 @@ export default function OverViewPage() {
                 </svg>
               </CardHeader>
               <CardContent>
-                <div className="text-2xl font-bold">134</div>
+                <div className="text-2xl font-bold">189</div>
                 <p className="text-xs text-muted-foreground">
                   +5% from last week
                 </p>
@@ -223,7 +223,7 @@ export default function OverViewPage() {
               <CardContent>
                 <div className="text-2xl font-bold">10 km</div>
                 <p className="text-xs text-muted-foreground">
-                  +8% from last month
+                  +8% from last week
                 </p>
               </CardContent>
             </Card>
