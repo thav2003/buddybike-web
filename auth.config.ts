@@ -35,6 +35,11 @@ const authConfig = {
       }
     })
   ],
+  callbacks: {
+    async redirect({ url, baseUrl }) {
+      return '/dashboard';
+    }
+  },
   pages: {
     signIn: '/' //sigin page
   }
