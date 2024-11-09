@@ -64,7 +64,7 @@ export function PieGraph() {
     <Card className="flex flex-col">
       <CardHeader className="items-center pb-0">
         <CardTitle>Phân bổ sinh viên</CardTitle>
-        <CardDescription>Tháng 1 - Tháng 6 2024</CardDescription>
+        <CardDescription>Tháng 10 - Tháng 11 2024</CardDescription>
       </CardHeader>
       <CardContent className="flex-1 pb-0">
         <ChartContainer
