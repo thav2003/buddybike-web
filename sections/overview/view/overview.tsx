@@ -1610,7 +1610,7 @@ export default function OverViewPage() {
                   {new Intl.NumberFormat('vi-VN', {
                     style: 'currency',
                     currency: 'VND'
-                  }).format(989971 + 545000)}
+                  }).format(1754964)}
                 </div>
               </CardContent>
             </Card>
