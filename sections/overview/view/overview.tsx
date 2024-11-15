@@ -1680,7 +1680,7 @@ export default function OverViewPage() {
                 </svg>
               </CardHeader>
               <CardContent>
-                <div className="text-2xl font-bold">25</div>
+                <div className="text-2xl font-bold">35</div>
               </CardContent>
             </Card>
             <Card>
@@ -1707,7 +1707,7 @@ export default function OverViewPage() {
                 </svg>
               </CardHeader>
               <CardContent>
-                <div className="text-2xl font-bold">92</div>
+                <div className="text-2xl font-bold">82</div>
               </CardContent>
             </Card>
             <Card>
