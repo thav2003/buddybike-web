@@ -3068,7 +3068,7 @@ export default async function DepositListingPage() {
         </div>
         <div className="flex items-start justify-between">
           <Heading
-            title={`Transaction Deposit (${mockDeposits.length})`}
+            title={`Transaction Deposit`}
             description="Manage deposit transactions"
           />
         </div>

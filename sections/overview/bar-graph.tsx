@@ -40,7 +40,7 @@ const chartData = [
 
 const chartConfig = {
   views: {
-    label: 'Page Views'
+    label: 'Người dùng'
   },
   user: {
     label: 'User',

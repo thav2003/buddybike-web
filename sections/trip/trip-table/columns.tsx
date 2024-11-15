@@ -22,7 +22,7 @@ export const columns: ColumnDef<Trip>[] = [
     header: 'Trip Code',
     cell: ({ row }) => row.getValue('tripCode'),
     meta: {
-      style: { maxWidth: '150px', overflow: 'hidden', textOverflow: 'ellipsis' }
+      style: { maxWidth: '200px', overflow: 'hidden', textOverflow: 'ellipsis' }
     }
   },
   {
@@ -80,7 +80,11 @@ export const columns: ColumnDef<Trip>[] = [
     accessorKey: 'revenue',
     header: 'Revenue',
     cell: ({ row }) => {
-      const revenue = row.getValue('revenue');
+      let revenue = row.getValue('revenue');
+      if (typeof revenue === 'string') {
+        revenue = parseFloat(revenue.replace(/,/g, ''));
+      }
+
       if (typeof revenue === 'number') {
         return new Intl.NumberFormat('vi-VN', {
           style: 'currency',

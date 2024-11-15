@@ -136,6 +136,12 @@ export const navItems: NavItem[] = [
     label: 'trip'
   },
   {
+    title: 'Subcriptions',
+    href: '/dashboard/subcription',
+    icon: 'subcriptions',
+    label: 'subcription'
+  },
+  {
     title: 'Transaction',
     icon: 'transaction',
     label: 'product',

@@ -1194,8 +1194,386 @@ export default async function TripListingPage() {
       vouchers: '5%',
       priceAfterVoucher: '45,600',
       revenue: '13,680'
+    },
+    {
+      id: 'BUDDYBIKE - 091101',
+      tripCode: 'BUDDYBIKE - 091101',
+      datetime: '2024-11-09T06:30:00',
+      driverName: 'H\u1ed3 Kh\u00e1nh Anh',
+      userName: 'Ho\u00e0ng Th\u1ecb Qu\u00fd',
+      pickupLocation:
+        '10 Mai Ch\u00ed Th\u1ecd, Ph\u01b0\u1eddng An Ph\u00fa, Qu\u1eadn 2, TP.HCM',
+      destination: '\u0110\u1ea1i h\u1ecdc FPT',
+      routeDistance: '13',
+      price: '39,000',
+      vouchers: '15%',
+      priceAfterVoucher: '33,150',
+      revenue: '9,945'
+    },
+    {
+      id: 'BUDDYBIKE - 091102',
+      tripCode: 'BUDDYBIKE - 091102',
+      datetime: '2024-11-09T09:25:00',
+      driverName: 'Tr\u1ea7n Thanh B\u1ea3o',
+      userName: 'L\u01b0u Th\u1ecb H\u00e0 Trinh',
+      pickupLocation: '\u0110\u1ea1i h\u1ecdc Ki\u1ebfn Tr\u00fac TP.HCM',
+      destination:
+        '32-34 B\u00ecnh Ti\u00ean, Ph\u01b0\u1eddng 4, Qu\u1eadn 6, TP.HCM',
+      routeDistance: '8.1',
+      price: '24,300',
+      vouchers: '5%',
+      priceAfterVoucher: '23,085',
+      revenue: '6,926'
+    },
+    {
+      id: 'BUDDYBIKE - 091103',
+      tripCode: 'BUDDYBIKE - 091103',
+      datetime: '2024-11-09T13:50:00',
+      driverName: 'Phan Anh Th\u01b0',
+      userName: '\u0110\u1eb7ng Th\u1ecb Kim Chi',
+      pickupLocation: 'SaiGon Mystery Villa',
+      destination: 'Tr\u01b0\u1eddng \u0110H Kinh t\u1ebf \u2013 Lu\u1eadt',
+      routeDistance: '13',
+      price: '39,000',
+      vouchers: '5%',
+      priceAfterVoucher: '37,050',
+      revenue: '11,115'
+    },
+    {
+      id: 'BUDDYBIKE - 101101',
+      tripCode: 'BUDDYBIKE - 101101',
+      datetime: '2024-11-10T14:00:00',
+      driverName: '\u0110\u1eb7ng T\u00e0i \u0110\u1ee9c',
+      userName: 'Qu\u00e1ch \u0110\u1ea1t Ph\u01b0\u1edbc',
+      pickupLocation:
+        '\u0110\u1ea1i h\u1ecdc C\u00f4ng Th\u01b0\u01a1ng TP.HCM',
+      destination:
+        'Chung C\u01b0 Ng\u00f4 Gia T\u1ef1, L\u00f4 K/009 \u0110. S\u01b0 V\u1ea1n H\u1ea1nh, Ph\u01b0\u1eddng 2, Qu\u1eadn 10, H\u1ed3 Ch\u00ed Minh 72519',
+      routeDistance: '9.3',
+      price: '27,900',
+      vouchers: '0%',
+      priceAfterVoucher: '27,900',
+      revenue: '8,370'
+    },
+    {
+      id: 'BUDDYBIKE - 111101',
+      tripCode: 'BUDDYBIKE - 111101',
+      datetime: '2024-11-11T06:20:00',
+      driverName: 'Qu\u00e1ch Th\u1ecb Di\u1ec5m My',
+      userName: 'T\u1ea1 Minh Khang',
+      pickupLocation:
+        'Tr\u01b0\u1eddng \u0110H Giao th\u00f4ng V\u1eadn t\u1ea3i Ph\u00e2n hi\u1ec7u t\u1ea1i TP.HCM',
+      destination:
+        '22 H\u1ebbm 303/18 T\u00e2n S\u01a1n Nh\u00ec, ph\u01b0\u1eddng T\u00e2n S\u01a1n Nh\u00ec, qu\u1eadn T\u00e2n Ph\u00fa',
+      routeDistance: '9.4',
+      price: '28,200',
+      vouchers: '15%',
+      priceAfterVoucher: '23,970',
+      revenue: '7,191'
+    },
+    {
+      id: 'BUDDYBIKE - 111102',
+      tripCode: 'BUDDYBIKE - 111102',
+      datetime: '2024-11-11T08:50:00',
+      driverName: 'Tr\u1ea7n B\u1ea3o Khang',
+      userName: 'Nguy\u1ec5n L\u00ea B\u1ea3o L\u00e2m',
+      pickupLocation:
+        '88 \u0110\u01b0\u1eddng s\u1ed1 7, ph\u01b0\u1eddng B\u00ecnh Tr\u1ecb \u0110\u00f4ng B, qu\u1eadn B\u00ecnh T\u00e2n, H\u1ed3 Ch\u00ed Minh',
+      destination:
+        '\u0110\u1ea1i h\u1ecdc Th\u1ec3 D\u1ee5c Th\u1ec3 Thao TP.HCM',
+      routeDistance: '28',
+      price: '84,000',
+      vouchers: '15%',
+      priceAfterVoucher: '71,400',
+      revenue: '21,420'
+    },
+    {
+      id: 'BUDDYBIKE - 111103',
+      tripCode: 'BUDDYBIKE - 111103',
+      datetime: '2024-11-11T09:10:00',
+      driverName: 'L\u00fd L\u1ec7 Anh',
+      userName: 'B\u00f9i H\u1eefu Chi',
+      pickupLocation:
+        '\u0110\u1ea1i h\u1ecdc Khoa h\u1ecdc T\u1ef1 nhi\u00ean - \u0110\u1ea1i h\u1ecdc Qu\u1ed1c Qu\u1ed1c Gia TP.HCM',
+      destination:
+        'H\u1ebbm 180/9A, \u0110\u01b0\u1eddng Nguy\u1ec5n H\u1eefu C\u1ea3nh, Ph\u01b0\u1eddng 22, Qu\u1eadn B\u00ecnh Th\u1ea1nh, TP.HCM',
+      routeDistance: '7.6',
+      price: '22,800',
+      vouchers: '15%',
+      priceAfterVoucher: '19,380',
+      revenue: '5,814'
+    },
+    {
+      id: 'BUDDYBIKE - 111104',
+      tripCode: 'BUDDYBIKE - 111104',
+      datetime: '2024-11-11T12:45:00',
+      driverName: 'Tr\u1ea7n Qu\u1ed1c T\u00fa',
+      userName: 'L\u00ea V\u0103n Qu\u00fd',
+      pickupLocation:
+        '17 \u0111\u01b0\u1eddng D7, khu ph\u1ed1 4, ph\u01b0\u1eddng An Kh\u00e1nh, qu\u1eadn 2, TP HCM',
+      destination: '\u0110\u1ea1i h\u1ecdc V\u0103n Lang',
+      routeDistance: '6.9',
+      price: '20,700',
+      vouchers: '15%',
+      priceAfterVoucher: '17,595',
+      revenue: '5,279'
+    },
+    {
+      id: 'BUDDYBIKE - 111105',
+      tripCode: 'BUDDYBIKE - 111105',
+      datetime: '2024-11-11T13:30:00',
+      driverName: 'Ph\u1ea1m Mai Anh',
+      userName: 'L\u00ea D\u01b0\u01a1ng Anh T\u00fa',
+      pickupLocation:
+        '\u0110\u1ea1i H\u1ecdc M\u1edf TP. H\u1ed3 Ch\u00ed Minh',
+      destination:
+        'H\u1ebbm 123/17, \u0110\u01b0\u1eddng X\u00f4 Vi\u1ebft Ngh\u1ec7 T\u0129nh, Ph\u01b0\u1eddng 25, Qu\u1eadn B\u00ecnh Th\u1ea1nh, TP.HCM',
+      routeDistance: '7.1',
+      price: '21,300',
+      vouchers: '15%',
+      priceAfterVoucher: '18,105',
+      revenue: '5,432'
+    },
+    {
+      id: 'BUDDYBIKE - 111106',
+      tripCode: 'BUDDYBIKE - 111106',
+      datetime: '2024-11-11T16:55:00',
+      driverName: 'Tr\u01b0\u01a1ng Qu\u1ed1c H\u01b0ng',
+      userName: 'Tri\u1ec7u Th\u1ecb Ki\u1ec1u Trang',
+      pickupLocation:
+        '185 Nguy\u1ec5n V\u0103n Tr\u1ed7i, Ph\u01b0\u1eddng 10, Qu\u1eadn Ph\u00fa Nhu\u1eadn, TP.HCM',
+      destination: '\u0110\u1ea1i h\u1ecdc Ng\u00e2n h\u00e0ng TP.HCM',
+      routeDistance: '4.5',
+      price: '13,500',
+      vouchers: '15%',
+      priceAfterVoucher: '11,475',
+      revenue: '3,443'
+    },
+    {
+      id: 'BUDDYBIKE - 111107',
+      tripCode: 'BUDDYBIKE - 111107',
+      datetime: '2024-11-11T17:10:00',
+      driverName: '\u0110\u1ed7 Ng\u1ecdc \u00c1nh',
+      userName: 'V\u00f5 Kh\u00e1nh Anh',
+      pickupLocation:
+        '170 H\u1eadu Giang, Ph\u01b0\u1eddng 6, Qu\u1eadn 6, TP.HCM',
+      destination: '\u0110\u1ea1i h\u1ecdc N\u00f4ng L\u00e2m TP.HCM',
+      routeDistance: '25',
+      price: '75,000',
+      vouchers: '15%',
+      priceAfterVoucher: '63,750',
+      revenue: '19,125'
+    },
+    {
+      id: 'BUDDYBIKE - 121101',
+      tripCode: 'BUDDYBIKE - 121101',
+      datetime: '2024-11-12T06:55:00',
+      driverName: 'Mai Ho\u00e0ng \u0110\u1ea1t',
+      userName: 'Nguy\u1ec5n H\u1eefu Linh',
+      pickupLocation: '\u0110\u1ea1i h\u1ecdc S\u00e0i G\u00f2n',
+      destination:
+        'H\u1ebbm 43/5A, \u0110\u01b0\u1eddng Ho\u00e0ng Hoa Th\u00e1m, Ph\u01b0\u1eddng 13, Qu\u1eadn T\u00e2n B\u00ecnh, TP.HCM',
+      routeDistance: '33',
+      price: '99,000',
+      vouchers: '20%',
+      priceAfterVoucher: '79,200',
+      revenue: '23,760'
+    },
+    {
+      id: 'BUDDYBIKE - 121102',
+      tripCode: 'BUDDYBIKE - 121102',
+      datetime: '2024-11-12T08:30:00',
+      driverName: 'Mai Xu\u00e2n Th\u1ecbnh',
+      userName: 'H\u1ed3 Thanh Qu\u00fd',
+      pickupLocation:
+        '247/32 Bis B\u00ecnh Ti\u00ean, Ph\u01b0\u1eddng 8, Qu\u1eadn 6, TP.HCM',
+      destination: '\u0110\u1ea1i h\u1ecdc S\u00e0i G\u00f2n',
+      routeDistance: '5.6',
+      price: '16,800',
+      vouchers: '5%',
+      priceAfterVoucher: '15,960',
+      revenue: '4,788'
+    },
+    {
+      id: 'BUDDYBIKE - 121103',
+      tripCode: 'BUDDYBIKE - 121103',
+      datetime: '2024-11-12T12:10:00',
+      driverName: 'L\u00ea Qu\u1ed1c Duy',
+      userName: 'D\u01b0\u01a1ng Thanh B\u00ecnh',
+      pickupLocation: 'Vinhomes Grand Park ',
+      destination: '\u0110\u1ea1i h\u1ecdc T\u00e0i ch\u00ednh - Marketing',
+      routeDistance: '6.1',
+      price: '18,300',
+      vouchers: '5%',
+      priceAfterVoucher: '17,385',
+      revenue: '5,216'
+    },
+    {
+      id: 'BUDDYBIKE - 121104',
+      tripCode: 'BUDDYBIKE - 121104',
+      datetime: '2024-11-12T15:30:00',
+      driverName: 'Ph\u1ea1m L\u00ea Qu\u1ed1c Tu\u1ea5n',
+      userName: 'L\u00ea Thanh Ki\u00ean',
+      pickupLocation: '\u0110\u1ea1i h\u1ecdc C\u00f4ng Nghi\u1ec7p TP.HCM',
+      destination: 'Chung c\u01b0 Sky 9 Q9',
+      routeDistance: '16',
+      price: '48,000',
+      vouchers: '5%',
+      priceAfterVoucher: '45,600',
+      revenue: '13,680'
+    },
+    {
+      id: 'BUDDYBIKE - 121105',
+      tripCode: 'BUDDYBIKE - 121105',
+      datetime: '2024-11-12T18:30:00',
+      driverName: 'L\u01b0u Tr\u1ecdng Nh\u00e2n',
+      userName: 'Ph\u1ea1m Ph\u01b0\u1edbc Thi\u1ec7n',
+      pickupLocation:
+        'H\u1ebbm 3/2A, \u0110\u01b0\u1eddng S\u01b0 V\u1ea1n H\u1ea1nh, Ph\u01b0\u1eddng 12, Qu\u1eadn 10, TP.HCM',
+      destination: '\u0110\u1ea1i h\u1ecdc T\u00f4n \u0110\u1ee9c Th\u1eafng',
+      routeDistance: '6.9',
+      price: '20,700',
+      vouchers: '10%',
+      priceAfterVoucher: '18,630',
+      revenue: '5,589'
+    },
+    {
+      id: 'BUDDYBIKE - 131101',
+      tripCode: 'BUDDYBIKE - 131101',
+      datetime: '2024-11-13T06:10:00',
+      driverName: 'Nguy\u1ec5n Th\u1ecb Thu H\u1eb1ng',
+      userName: 'L\u00ea D\u01b0\u01a1ng Di\u1ec7u Trinh',
+      pickupLocation: 'Vinhomes Grand Park Q9',
+      destination: 'Nh\u00e0 v\u0103n h\u00f3a sinh vi\u00ean TP.HCM',
+      routeDistance: '7.9',
+      price: '23,700',
+      vouchers: '10%',
+      priceAfterVoucher: '21,330',
+      revenue: '6,399'
+    },
+    {
+      id: 'BUDDYBIKE - 131102',
+      tripCode: 'BUDDYBIKE - 131102',
+      datetime: '2024-11-13T06:30:00',
+      driverName: 'H\u1ed3 Nguy\u1ec5n Minh Tri\u1ebft',
+      userName: 'T\u0103ng H\u1ed3ng B\u1ea3o',
+      pickupLocation:
+        '10 Mai Ch\u00ed Th\u1ecd, Ph\u01b0\u1eddng An Ph\u00fa, Qu\u1eadn 2, TP.HCM',
+      destination: '\u0110\u1ea1i h\u1ecdc FPT',
+      routeDistance: '13',
+      price: '39,000',
+      vouchers: '10%',
+      priceAfterVoucher: '35,100',
+      revenue: '10,530'
+    },
+    {
+      id: 'BUDDYBIKE - 131103',
+      tripCode: 'BUDDYBIKE - 131103',
+      datetime: '2024-11-13T06:50:00',
+      driverName: '\u0110\u1eb7ng Th\u1ecb Lan Anh',
+      userName: 'Phan Gia Kh\u00e1nh',
+      pickupLocation:
+        '12 \u0110\u01b0\u1eddng Phan V\u0103n Tr\u1ecb, Ph\u01b0\u1eddng 7, G\u00f2 V\u1ea5p, H\u1ed3 Ch\u00ed Minh',
+      destination: 'Tr\u01b0\u1eddng \u0110H Kinh t\u1ebf \u2013 Lu\u1eadt',
+      routeDistance: '18',
+      price: '54,000',
+      vouchers: '20%',
+      priceAfterVoucher: '43,200',
+      revenue: '12,960'
+    },
+    {
+      id: 'BUDDYBIKE - 131104',
+      tripCode: 'BUDDYBIKE - 131104',
+      datetime: '2024-11-13T08:05:00',
+      driverName: 'T\u1ea1 Minh Khang',
+      userName: 'Tr\u1ea7n Minh Trang',
+      pickupLocation:
+        '284 \u0110\u01b0\u1eddng \u00c2u C\u01a1, T\u00e2n S\u01a1n Nh\u00ec, T\u00e2n Ph\u00fa, H\u1ed3 Ch\u00ed Minh',
+      destination: '\u0110\u1ea1i h\u1ecdc V\u0103n Lang',
+      routeDistance: '11',
+      price: '33,000',
+      vouchers: '5%',
+      priceAfterVoucher: '31,350',
+      revenue: '9,405'
+    },
+    {
+      id: 'BUDDYBIKE - 131105',
+      tripCode: 'BUDDYBIKE - 131105',
+      datetime: '2024-11-13T18:10:00',
+      driverName: 'T\u1ea1 H\u1ea3i Y\u1ebfn',
+      userName: 'M\u1ea1c Quang Huy',
+      pickupLocation:
+        '\u0110\u1ea1i h\u1ecdc B\u00e1ch khoa \u2013 \u0110\u1ea1i h\u1ecdc Qu\u1ed1c gia TP.HCM.',
+      destination:
+        'Chung c\u01b0 C7, \u0111\u01b0\u1eddng Man Thi\u1ec7n, T\u0103ng Nh\u01a1n Ph\u00fa A, Qu\u1eadn 9, TP.HCM',
+      routeDistance: '23',
+      price: '69,000',
+      vouchers: '15%',
+      priceAfterVoucher: '58,650',
+      revenue: '17,595'
+    },
+    {
+      id: 'BUDDYBIKE - 141101',
+      tripCode: 'BUDDYBIKE - 141101',
+      datetime: '2024-11-14T09:40:00',
+      driverName: 'Tr\u1ecbnh Th\u1ecb B\u00edch Huy\u1ec1n',
+      userName: 'T\u0103ng Th\u00e0nh \u0110\u1ecbnh',
+      pickupLocation: '\u0110\u1ea1i h\u1ecdc y d\u01b0\u1ee3c',
+      destination:
+        '23/3, \u0110\u01b0\u1eddng L\u00ea V\u0103n Vi\u1ec7t, Ph\u01b0\u1eddng T\u0103ng Nh\u01a1n Ph\u00fa A, TP. Th\u1ee7 \u0110\u1ee9c, TP.HCM',
+      routeDistance: '18.3',
+      price: '54,900',
+      vouchers: '5%',
+      priceAfterVoucher: '52,155',
+      revenue: '15,647'
+    },
+    {
+      id: 'BUDDYBIKE - 141102',
+      tripCode: 'BUDDYBIKE - 141102',
+      datetime: '2024-11-14T10:48:00',
+      driverName: 'L\u00ea V\u0169 Ng\u1ecdc An',
+      userName: 'La Gia H\u01b0ng',
+      pickupLocation:
+        '\u0110\u1ea1i h\u1ecdc Kinh t\u1ebf T\u00e0i ch\u00ednh TP.HCM',
+      destination:
+        '46, \u0110\u01b0\u1eddng B\u1ea1ch \u0110\u1eb1ng, Ph\u01b0\u1eddng 24, Qu\u1eadn B\u00ecnh Th\u1ea1nh, TP.HCM',
+      routeDistance: '2.7',
+      price: '8,100',
+      vouchers: '15%',
+      priceAfterVoucher: '6,885',
+      revenue: '2,066'
+    },
+    {
+      id: 'BUDDYBIKE - 141103',
+      tripCode: 'BUDDYBIKE - 141103',
+      datetime: '2024-11-14T11:10:00',
+      driverName: 'Mai Nguy\u1ec5n Ho\u00e0ng An',
+      userName: 'Ho\u00e0ng Ho\u00e0ng Hoa',
+      pickupLocation:
+        'H\u1ebbm 68/9, \u0110\u01b0\u1eddng L\u00ea V\u0103n S\u1ef9, Ph\u01b0\u1eddng 11, Qu\u1eadn Ph\u00fa Nhu\u1eadn, TP.HCM',
+      destination: '\u0110\u1ea1i h\u1ecdc FPT',
+      routeDistance: '16.4',
+      price: '49,200',
+      vouchers: '15%',
+      priceAfterVoucher: '41,820',
+      revenue: '12,546'
+    },
+    {
+      id: 'BUDDYBIKE - 141104',
+      tripCode: 'BUDDYBIKE - 141104',
+      datetime: '2024-11-14T12:10:00',
+      driverName: 'Tr\u1ea7n Thu H\u00e0',
+      userName: 'Ho\u00e0ng H\u1eefu Vi\u1ec7t',
+      pickupLocation: 'Vinhomes Grand Park ',
+      destination: '\u0110\u1ea1i h\u1ecdc FPT',
+      routeDistance: '4.4',
+      price: '13,200',
+      vouchers: '5%',
+      priceAfterVoucher: '12,540',
+      revenue: '3,762'
     }
   ];
+  console.log(mockTrips.length);
   // Lọc dữ liệu theo khoảng thời gian (from và to)
   const filteredTripsByDate = mockTrips.filter((trip) => {
     const tripStartDate = new Date(trip.datetime).getTime();
@@ -1248,7 +1626,7 @@ export default async function TripListingPage() {
         </div>
         <div className="flex items-start justify-between">
           <Heading
-            title={`Trips (74)`}
+            title={`Trips`}
             description="Manage trips (Client-side table with date range filtering)"
           />
         </div>
